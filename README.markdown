@@ -64,11 +64,11 @@ and the word, `jslint`.
 Likewise, you may specify global functions and objects that are not found in
 your source file via a comma-separated list as follows:
 
-    /*global jQuery, $ */
+    /*global jQuery */
 
 or
 
-    /*globals jQuery, $ */
+    /*globals jQuery */
 
 The two comment types, `/*global */` and `/*globals */`, are synomymous and may
 be interchanged at will.
@@ -82,7 +82,7 @@ inside the function block within a `/*jslint */` comment.
       browser: true
     */
 
-    /*globals jQuery, $ */
+    /*globals jQuery */
 
     jQuery(function ($) {
         function one() {
