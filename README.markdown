@@ -117,9 +117,9 @@ to the proper source and report directories and run:
 *   `make jsxml` or `make cssxml` to lint JS or CSS, respectively, outputting
     errors in XML format to the report directory
 
-To output the reported errors and warnings to XML, as above, create a simple
-shell script in some directory contained in your `$PATH` like the following, and
-make it executable:
+To output the reported errors and warnings to XML --- as above --- create a
+simple shell script in some directory contained in your `$PATH` like the
+following, and make it executable:
 
     #!/bin/bash
     #
