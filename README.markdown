@@ -64,11 +64,11 @@ and the word, `jslint`.
 Likewise, you may specify global functions and objects that are not found in
 your source file via a comma-separated list as follows:
 
-    /*global jQuery */
+    /*global jQuery, YUI */
 
 or
 
-    /*globals jQuery */
+    /*globals jQuery, YUI */
 
 The two comment types, `/*global */` and `/*globals */`, are synomymous and may
 be interchanged at will.
