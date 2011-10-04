@@ -16,7 +16,7 @@ Installation
 
 1. Clone the repository from Github.com via
 
-<br />
+&nbsp;
 
     git clone git://github.com/dylon/jslint-utils.git
 
@@ -24,7 +24,7 @@ Installation
 shell script like the following in some directory contained in your `$PATH` and
 make it executable; I shall use `/usr/local/bin/jslint` for reference:
 
-<br />
+&nbsp;
 
     #!/bin/bash
     #
