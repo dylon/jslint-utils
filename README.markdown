@@ -24,6 +24,8 @@ Installation
 shell script like the following in some directory contained in your `$PATH` and
 make it executable; I shall use `/usr/local/bin/jslint` for reference:
 
+<!-- Code Block -->
+
     #!/bin/bash
     #
     # ------------------------------------------------------------------------------
