@@ -14,17 +14,19 @@ The Node interpreter is much faster than Rhino, so it is suggested.
 Installation
 ------------
 
-1. Clone the repository from Github.com via
-
-
+1. Clone the repository from Github.com via <br />
 
     git clone git://github.com/dylon/jslint-utils.git
 
 2. The script must be invoked with the exact path to it, so create a simple
 shell script like the following in some directory contained in your `$PATH` and
-make it executable; I shall use `/usr/local/bin/jslint` for reference:
+make it executable; I shall use `/usr/local/bin/jslint` for reference:<br />
 
-
+    #!/bin/bash
+    #
+    # ------------------------------------------------------------------------------
+    # File: /usr/local/bin/jslint
+    # ------------------------------------------------------------------------------
 
     sh "/path/to/jslint-utils/scripts/run-jslint.sh" "$@"
 
