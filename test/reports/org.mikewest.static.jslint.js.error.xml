@@ -1,0 +1,5 @@
+<testsuite failures='1' time='0.084' errors='1' tests='1' skipped='0' name='org.mikewest.static.jslint.js.error'>
+  <testcase time='0.084' name='testJSLint' classname='org.mikewest.static.jslint.js.error'>
+    <error message='error failed JSLint.'><![CDATA[[./test/src/error.js] Lint at line 1 character 1: 'x' was used before it was defined.]]></error>
+  </testcase>
+</testsuite>

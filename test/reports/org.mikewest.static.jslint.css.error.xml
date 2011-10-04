@@ -1,0 +1,5 @@
+<testsuite failures='1' time='0.085' errors='1' tests='1' skipped='0' name='org.mikewest.static.jslint.css.error'>
+  <testcase time='0.085' name='testJSLint' classname='org.mikewest.static.jslint.css.error'>
+    <error message='error failed JSLint.'><![CDATA[[./test/src/error.css] Lint at line 2 character 1: Expected a tagName, and instead saw omg-is-not-a-tagname.]]></error>
+  </testcase>
+</testsuite>

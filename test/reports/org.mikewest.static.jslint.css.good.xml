@@ -1,0 +1,4 @@
+<testsuite failures='0' time='0.085' errors='0' tests='1' skipped='0' name='org.mikewest.static.jslint.css.good'>
+  <testcase time='0.085' name='testJSLint' classname='org.mikewest.static.jslint.css.good'>
+  </testcase>
+</testsuite>
