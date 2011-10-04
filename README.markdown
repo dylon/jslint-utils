@@ -6,10 +6,11 @@ enabling easy linting on the command line, and automated reporting of linting
 errors via a continuous integration system like Hudson.
 
 Do note that a prerequisite of invoking `run-jslint.sh` is to have either Node
-or Java installed and its executable included in your `$PATH` variable.  The
-script will detect whether the `node` executable is in your `$PATH`, and if not,
-will then fall back to using the Rhino Jar file packaged with the source code.
-The Node interpreter is much faster than Rhino, so it is suggested.
+or Java installed and its executable included in your `$PATH` environment
+variable.  The script will detect whether the `node` executable is in your
+`$PATH`, and if not, will then fall back to using the Rhino Jar file packaged
+with the source code.  The Node interpreter is much faster than Rhino, so it is
+suggested.
 
 Installation
 ------------
