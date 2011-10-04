@@ -22,8 +22,10 @@ Installation
    shell script like the following in some directory contained in your `$PATH`
    and make it executable; I shall use `/usr/local/bin/jslint` for reference:
 
-    #!/bin/bash
-    # File: /usr/local/bin/jslint
+    \#!/bin/bash
+    \# ------------------------------------------------------------------------------
+    \# File: /usr/local/bin/jslint
+    \# ------------------------------------------------------------------------------
 
     sh "/path/to/jslint-utils/scripts/run-jslint.sh" "$@"
 
@@ -113,8 +115,11 @@ To output the reported errors and warnings to XML, as above, create a simple
 shell script in some directory contained in your `$PATH` like the following, and
 make it executable:
 
-    #!/bin/bash
-    # File: /usr/local/bin/jslint-to-xml
+    \#!/bin/bash
+    \#
+    \# ------------------------------------------------------------------------------
+    \# File: /usr/local/bin/jslint-to-xml
+    \# ------------------------------------------------------------------------------
 
     sh "/path/to/jslint-utils/scripts/jslint-to-xml.sh" "$@"
 
