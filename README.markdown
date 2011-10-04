@@ -75,15 +75,15 @@ inside the function block within a `/*jslint */` comment.
 
     jQuery(function ($) {
         function one() {
-        	return 1;
+            return 1;
         }
 
         function two(string) {
-        	/*jslint evil: true */
+          /*jslint evil: true */
 
-        	// The use of eval is strongly discouraged, but this is an example
-        	// showing how to configure JSLint to tolerate it in just this one
-        	// function, rather than throughout the entire script.
+          // The use of eval is strongly discouraged, but this is an example
+          // showing how to configure JSLint to tolerate it in just this one
+          // function, rather than throughout the entire script.
           return eval(string);
         }
     });
