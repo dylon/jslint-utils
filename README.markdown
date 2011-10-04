@@ -15,13 +15,11 @@ Installation
 ------------
 
 1. Clone the repository from Github.com via
-
     git clone git://github.com/dylon/jslint-utils.git
 
 2. The script must be invoked with the exact path to it, so create a simple
 shell script like the following in some directory contained in your `$PATH` and
 make it executable; I shall use `/usr/local/bin/jslint` for reference:
-
     sh "/path/to/jslint-utils/scripts/run-jslint.sh" "$@"
 
 Basic Usage
