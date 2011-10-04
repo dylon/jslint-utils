@@ -23,10 +23,7 @@ Installation
    and make it executable; I shall use `/usr/local/bin/jslint` for reference:
 
     #!/bin/bash
-    #
-    # ------------------------------------------------------------------------------
     # File: /usr/local/bin/jslint
-    # ------------------------------------------------------------------------------
 
     sh "/path/to/jslint-utils/scripts/run-jslint.sh" "$@"
 
@@ -117,10 +114,7 @@ shell script in some directory contained in your `$PATH` like the following, and
 make it executable:
 
     #!/bin/bash
-    #
-    # ------------------------------------------------------------------------------
     # File: /usr/local/bin/jslint-to-xml
-    # ------------------------------------------------------------------------------
 
     sh "/path/to/jslint-utils/scripts/jslint-to-xml.sh" "$@"
 
