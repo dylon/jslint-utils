@@ -1,4 +1,9 @@
-<testsuite failures='0' time='0.082' errors='0' tests='1' skipped='0' name='org.mikewest.static.jslint.js.good'>
-  <testcase time='0.082' name='testJSLint' classname='org.mikewest.static.jslint.js.good'>
+<testsuite failures='1' time='0.069' errors='1' tests='1' skipped='0' name='org.mikewest.static.jslint.js.good'>
+  <testcase time='0.069' name='testJSLint' classname='org.mikewest.static.jslint.js.good'>
+    <error message='good failed JSLint.'><![CDATA[jslint: No problems found in ./test/src/good.js
+  ./test/src/good.js
+    functions:
+    globals:
+      x]]></error>
   </testcase>
 </testsuite>
