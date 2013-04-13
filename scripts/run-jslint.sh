@@ -76,7 +76,7 @@ else
     # which engine we use.  If `node` exists, use it.  It's amazingly
     # fast.  Much, much, much faster than Rhino.
     #
-    if [ -n "`which node`" ]; then
+    if [ -n "`which node 2> /dev/null`" ]; then
         node "${NODE_JSLINT}" "${TOPARSE}" "${TODISPLAY}"
     #
     # Fallback to Rhino if we have to.  Even though it's ugly and
