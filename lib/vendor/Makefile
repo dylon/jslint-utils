@@ -8,7 +8,7 @@ updateforkedjslint:
 	@curl -o jslint.js http://github.com/mikewest/jslint/raw/master/fulljslint.js
 
 updatejslint:
-	@curl -O https://github.com/douglascrockford/JSLint/master/jslint.js
+	@curl -O https://raw.github.com/douglascrockford/JSLint/master/jslint.js
 
 ../rhinoed_jslint.js: jslint.js ../rhino.js
 	@cat ./jslint.js ../rhino.js > ../rhinoed_jslint.js
